@@ -31,6 +31,7 @@ export default {
 </script>
 
 <style lang="scss" scopes>
+@import '../assets/style/partials/variables.scss';
 header{
     .container{
         display: flex;
@@ -54,10 +55,10 @@ nav{
         font-weight: 700;
         text-decoration: none;
 
-        &.active{
+        &.active, &:hover{
             // background-color: yellow;
-            color: #0C7CEC;
-            border-bottom: 5px solid #0C7CEC;
+            color: $DCColor;
+            border-bottom: 5px solid $DCColor;
         }
     }
 }
