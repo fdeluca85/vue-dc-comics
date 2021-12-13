@@ -1,5 +1,9 @@
 <template>
-    <h2>Content goes here</h2>
+        <main>
+            <div class="container">
+                <h2> ---> Content goes here >--- </h2>
+            </div>
+        </main>
   
 </template>
 
@@ -10,7 +14,24 @@ export default {
 }
 </script>
 
-<style scopes>
+<style lang='scss' scopes>
+main{
+    background-color: black;
+    color: white;
+    height: 150px;
+    margin: 10px;
+    
+    .container{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    h2{
+        line-height: 150px;
+        text-transform: capitalize;
+    }
+}
+
 
 
 </style>
