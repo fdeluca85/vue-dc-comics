@@ -14,12 +14,13 @@ export default {
 }
 </script>
 
-<style lang='scss' scopes>
+<style lang='scss' scoped>
+@import '../assets/style/partials/variables.scss';
+
 main{
     background-color: black;
     color: white;
     height: 150px;
-    margin: 10px;
     
     .container{
         display: flex;
